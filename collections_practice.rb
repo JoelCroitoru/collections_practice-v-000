@@ -27,9 +27,4 @@ def find_a(array)
   end
 end
 def sum_array(array)
-  index = 0
-  while index < array.length
-    sum = index + index
-    index += 1
-  end
-end
+  array.inject {|sum, i| sum + i}
