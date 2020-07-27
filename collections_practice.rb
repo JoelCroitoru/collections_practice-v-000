@@ -30,7 +30,7 @@ def sum_array(array)
   array.inject {|sum, i| sum + i}
 end
 def add_s(array)
-  array.each_with_index.collect do |element, index|
+  array.collect do |element, index|
     if index = 1
       element
     else
