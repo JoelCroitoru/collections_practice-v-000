@@ -19,7 +19,7 @@ end
 def kesha_maker(array)
   new_array=[]
   array.each do |i|
-    new_array << i[2] = $
+    new_array << i[2] = a
   end
   new_array
 end
